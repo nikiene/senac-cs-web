@@ -13,7 +13,7 @@ body {
 }
 
 header h1 {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 #logo {
@@ -48,4 +48,16 @@ header h1 {
 .menu a:hover {
   background-color: white;
   color: #eb4b5e;
+}
+
+.left-column {
+  float: left;
+  width: 75%;
+  padding-right: 7.5px;
+}
+
+.right-column {
+  float: right;
+  width: 25%;
+  padding-left: 7.5px;
 }
