@@ -145,3 +145,22 @@ header h1 {
 .promo:hover {
   box-shadow: 0px 0px 20px #888888;
 }
+
+.social {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social img {
+  cursor: pointer;
+  margin: 5px;
+  transition: opacity 0.3s;
+  user-select: none;
+}
+
+.social img:hover {
+  opacity: 0.65;
+}
+
