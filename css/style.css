@@ -119,5 +119,29 @@ header h1 {
 }
 
 .about-text a {
-    color: #eb4b5e;
+  color: #eb4b5e;
+}
+
+.promo img {
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  -webkit-user-drag: none;
+}
+
+.promo {
+  margin-top: 10px;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1vw;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+  user-select: none;
+  align-items: center;
+}
+
+.promo:hover {
+  box-shadow: 0px 0px 20px #888888;
 }
