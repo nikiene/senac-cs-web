@@ -4,7 +4,7 @@
     <p>
         <sup>
             In this repository i will reflect what I learned for this subject. <br>
-            We created a website using HTML5 and CSS3.
+            We created a candy store website using HTML5 and CSS3.
         </sup>
     </p>
 </div>
