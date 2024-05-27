@@ -97,3 +97,27 @@ header h1 {
   bottom: 25px;
   right: 25px;
 }
+
+.about-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  user-select: none;
+}
+
+.about-item {
+  height: 75px;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 0px 0px 5px #888888;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.about-item:hover {
+  box-shadow: 5px 10px 10px #888888;
+}
+
+.about-text a {
+    color: #eb4b5e;
+}
