@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe6e6;
+  font-family: Candara, Helvetic, sans-serif;
+  color: #eb4b5e;
+  margin: 0;
+  padding: 10px 50px 50px 50px;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  user-select: none;
+}
+
+#logoImg {
+  padding-right: 15px;
+  padding-bottom: 10px;
+  pointer-events: none;
+}
