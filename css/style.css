@@ -164,3 +164,16 @@ header h1 {
   opacity: 0.65;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.grid img {
+  margin-top: 5px;
+  height: 150px;
+  user-select: none;
+  border-radius: 50%;
+  border: 2px solid #eb4b5e;
+}
