@@ -177,3 +177,31 @@ header h1 {
   border-radius: 50%;
   border: 2px solid #eb4b5e;
 }
+
+.grid2 {
+  height: 295px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product {
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: box-shadow 0.3s;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.product:hover {
+  box-shadow: 5px 10px 15px #888888;
+}
+
+.product p {
+  margin: 5px;
+}
+
+.productName {
+  font-weight: bold;
+}
