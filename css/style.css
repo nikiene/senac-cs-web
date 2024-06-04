@@ -243,3 +243,43 @@ header h1 {
 #callUs p {
   margin: 0;
 }
+
+@media screen and (max-width: 800px) {
+  .left-column {
+    width: 100%;
+    padding: 0;
+  }
+
+  .right-column {
+    width: 100%;
+    padding: 0;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  #logoImg {
+    width: 75px;
+  }
+
+  #promotion {
+    font-size: 4vw;
+    margin-top: 0;
+  }
+
+  .promo {
+    font-size: 3vw;
+  }
+
+  body {
+    padding: 5px 25px 25px 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .menu {
+    display: block;
+    width: 100%;
+  }
+}
